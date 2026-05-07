@@ -5,3 +5,7 @@ function filterEvenNumbers(numbers: number[]): number[] {
 
 // S M Samiul Hasan 
 
+// Problem 2
+function reverseString(str: string): string {
+  return str.split("").reverse().join("");
+}
