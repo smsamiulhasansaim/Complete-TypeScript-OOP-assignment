@@ -27,3 +27,6 @@ This repository contains solutions for the TypeScript & OOP assignment, includin
 
 - **Blog 1:** `any` vs `unknown` — type safety and type narrowing
 - **Blog 2:** The four pillars of OOP — Encapsulation, Abstraction, Inheritance, Polymorphism
+
+
+# Code By S M Samiul Hasan 
