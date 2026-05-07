@@ -100,19 +100,6 @@ if (isUser(data)) {
 }
 ```
 
----
-
-## `any` vs `unknown` — Side by Side
-
-| Feature | `any` | `unknown` |
-|---|---|---|
-| Can hold any value | ✅ | ✅ |
-| Requires type check before use | ❌ | ✅ |
-| Provides type safety | ❌ | ✅ |
-| Recommended for unpredictable data | ❌ | ✅ |
-
----
-
 ## Conclusion
 
 `any` disables the type checker and hides potential bugs. `unknown` keeps you honest — it accepts any value but forces you to verify the type before using it. Combined with type narrowing techniques like `typeof`, `instanceof`, and custom type guards, `unknown` lets you handle truly unpredictable data (API responses, user input, JSON parsing) while keeping your codebase fully type-safe. The rule is simple: **reach for `unknown` whenever you're tempted to write `any`.**
