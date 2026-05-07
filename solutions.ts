@@ -59,3 +59,9 @@ class Student extends Person {
     return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
   }
 }
+
+// Problem 7
+function getIntersection(arr1: number[], arr2: number[]): number[] {
+  const set = new Set(arr2);
+  return arr1.filter((n) => set.has(n));
+}
